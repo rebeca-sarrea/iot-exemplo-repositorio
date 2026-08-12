@@ -26,4 +26,3 @@ O projeto vai utilizar um botão como entrada para controlar um LED como saída.
 | 1 | Resistor de 10 kΩ |
 | 1 | Botão tipo push button |
 | 1 | LED vermelho difuso de 5 mm |
-| — | Fios de jumper macho-macho |

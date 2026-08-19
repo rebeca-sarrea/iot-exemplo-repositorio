@@ -1,21 +1,23 @@
-# iot-exemplo-repositorio
+# iot-Aula 5
 
-Discente: Ícaro Caldeira Botelho
+Discente: Rebeca Sarrea
 
 Docente: Amanda Paul Dull
 
-Esse repositório serve de exemplo para a entrega de atividades da matéria de IoT.
-
 [![Simular no Tinkercad](https://img.shields.io/badge/Simular%20no-Tinkercad-orange?style=for-the-badge&logo=autodesk)](https://www.tinkercad.com/things/gzcCF6GhFek-acendedor-de-led-3000?sharecode=oJlNj4IwWi4yJ-hbwXRkpEibq6Wei9GqDSi0qM2b9bM)
 
-## Enunciado: Vamos ligar o LED!
+## Atividade 1
 
-O projeto vai utilizar um botão como entrada para controlar um LED como saída. Ao pressionar o botão, o Arduino altera o estado do LED — cada clique liga ou desliga, funcionando como um interruptor eletrônico.
+### Enunciado: Acionar um LED com Sensor de Presença
 
-- O Arduino lê o estado do botão pelo **pino 7**
-- Controla o LED pelo **pino 10**
+Desenvolver um programa que acenda um LED quando o sensor de presença detectar movimento
 
-## Materiais necessários
+- O Arduino lê o estado do do sensor pelo **pino 7**
+- Controla o LED pelo **pino 6**
+- Utiliza a porta de **5V**
+- Utiliza a porta **GND**
+
+### Materiais necessários
 
 | Qtd | Componente |
 |-----|------------|
@@ -23,6 +25,29 @@ O projeto vai utilizar um botão como entrada para controlar um LED como saída.
 | 1 | Cabo USB |
 | 1 | Protoboard |
 | 1 | Resistor de 200 Ω ou 220 Ω |
-| 1 | Resistor de 10 kΩ |
-| 1 | Botão tipo push button |
+| 1 | Sensor de presença |
 | 1 | LED vermelho difuso de 5 mm |
+| — | Fios de jumper macho-macho |
+
+## Desafio Extra
+
+### Enunciado: Acionar LEDs através de clicks
+
+ desenvolver uma lógica onde aperta 1 vez o botão ligue o LED 1, apertar uma segunda vez ligue o LED 2, apertar uma terceira vez desligue
+
+- O Arduino lê o estado do Botão pelo **pino 3**
+- Controla o LED pelo **pino 5 e 11**
+- Utiliza a porta de **5V**
+- Utiliza a porta **GND**
+
+### Materiais necessários
+
+| Qtd | Componente |
+|-----|------------|
+| 1 | Placa Arduino UNO |
+| 1 | Cabo USB |
+| 1 | Protoboard |
+| 3 | Resistor de 200 Ω ou 220 Ω |
+| 1 | Sensor de presença |
+| 1 | LED vermelho difuso de 5 mm |
+| — | Fios de jumper macho-macho |
